@@ -1,7 +1,15 @@
 
-# Docling Lab
-A project to explore the library docling. https://ds4sd.github.io/docling/
-Docling parses documents and exports them to the desired format with ease and speed.
+# Pdf & images lab
+A project to explore libraries to extract text from pdfs such as:
+* pdfminer
+* pyMuPDF
+* pyPDF2
+* ptpdfium2
+
+Besides, I explore others to extract text from images such as
+* pytesseract
+* easyocr
+* transformers models from huggingface
 
 ## Setup
 
