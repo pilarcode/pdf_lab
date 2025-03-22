@@ -11,30 +11,28 @@ Besides, I explore others to extract text from images such as
 * easyocr
 * transformers models from huggingface
 
+Additionally, how to extract text from pdfs using LLMs is also explored
+* Gemini
+
+
 ## Setup
 
 **Step 1**. Navigate to the root directory of the repository and create a new conda environment for development:
 
 ```bash
-conda create -n <your_env_name> python=3.12 -y && conda activate <your_env_name>
+uv venv .venv
 ```
 
-**Step 2**. Install poetry
+**Step 2**. Activate the environment:
 
 ```bash
-conda install -c conda-forge poetry
+source .venv/Scripts/activate
 ```
 
-**Step 3**. Install  ipywidgets
+**Step 3**. Install the dependencies:
 
 ```bash
-conda install -n <your_env_name> ipywidgets
-```
-
-**Step 4**. Install all the dependencies
-
-```bash
-poetry install --no-root
+uv pip install -e .
 ```
 
 ## Usage
